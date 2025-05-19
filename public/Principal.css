@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAD1;
+}
+/* para la barra lateral */
+.sidebar {
+    position: fixed;
+    left: -300px; 
+    width: 300px; 
+    height: 100%;
+    background: #FFDC51;
+    transition: all .5s ease;
+}
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255,220,81,.1);
+    transition: .4s;
+    text-decoration: none;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn, label #cancel{
+    position: absolute;
+    background: #042331;
+    border-radius: 3px;
+    cursor: pointer;
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    margin-left: 55px;
+    z-index: 1111;
+    left: -195px; 
+    top: 17px;
+    font-size: 30px;
+    color: #f8db47;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+#check:checked ~ .content{
+    margin-left: 250px;
+}
+
+.content {
+    transition: all .5s;
+    padding: 20px;
+    margin-left: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+/*para las imagenes iconos*/
+.sidebar ul a .menu-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.sidebar .contacto-info {
+    padding: 15px 40px;
+    color: black; 
+    border-top: 1px solid rgba(0,0,0,.1);
+    
+}
+
+.sidebar .contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.menu-icons {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.form-container {
+    border-radius: 15px;
+    padding: 50px;
+    width: 350px;         
+    height: 300px;       
+    margin: 0 auto;
+}
+
+.button1 {
+    width: 200%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 100px;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.button2 {
+    width: 200%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 100px;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-left: -150px;
+    
+}
+
+/*usuario en barra lateral*/
+.user-info {
+    padding: 20px 15px;
+    background: #063146;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.user-info .username {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFDC51;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-section {
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logout-btn {
+    display: block;
+    background: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+

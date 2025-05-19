@@ -1,0 +1,1279 @@
+CRITICAL - 2025-03-19 01:42:04 --> TypeError: Config\Services::apiService(): Argument #1 ($request) must be of type ?CodeIgniter\HTTP\IcomingRequest, CodeIgniter\HTTP\IncomingRequest given, called in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Config\BaseService.php on line 251
+[Method: GET, Route: alumnos/2]
+in APPPATH\Config\Services.php on line 36.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::apiService(Object(CodeIgniter\HTTP\IncomingRequest), false)
+ 2 APPPATH\Config\Services.php(39): CodeIgniter\Config\BaseService::getSharedInstance('apiservice', Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 APPPATH\Controllers\ApiController.php(17): Config\Services::apiService()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('2')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:45:07 --> TypeError: Config\Services::apiService(): Argument #1 ($request) must be of type ?CodeIgniter\HTTP\IcomingRequest, CodeIgniter\HTTP\IncomingRequest given, called in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Config\BaseService.php on line 251
+[Method: GET, Route: alumnos/]
+in APPPATH\Config\Services.php on line 36.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::apiService(Object(CodeIgniter\HTTP\IncomingRequest), false)
+ 2 APPPATH\Config\Services.php(39): CodeIgniter\Config\BaseService::getSharedInstance('apiservice', Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 APPPATH\Controllers\ApiController.php(17): Config\Services::apiService()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:46:08 --> Error: Undefined constant "App\Controllers\alumnoService"
+[Method: GET, Route: alumnos/]
+in APPPATH\Controllers\ApiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:47:48 --> Error: Call to undefined method App\Libraries\ApiService::getAlumno()
+[Method: GET, Route: alumnos/]
+in APPPATH\Controllers\ApiController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:50:03 --> Error: Undefined constant "App\Controllers\alumnoService"
+[Method: GET, Route: alumnos/]
+in APPPATH\Controllers\ApiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:50:32 --> Error: Call to undefined method App\Libraries\ApiService::getAlumno()
+[Method: GET, Route: alumnos/]
+in APPPATH\Controllers\ApiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 01:54:09 --> Error: Call to undefined method App\Libraries\ApiService::getAlumno()
+[Method: GET, Route: alumnos/1]
+in APPPATH\Controllers\ApiController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:04:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:04:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:07:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:07:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:07:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:07:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:07:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:07:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:07:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:07:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:07:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:07:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:09:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:09:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:09:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:09:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:09:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:09:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:09:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:09:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:12:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:12:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:12:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:12:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:13:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:13:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:17:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:17:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:17:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '2')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('2')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('2')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('2')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('2')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '2')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('2')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('2')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('2')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('2')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:17:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL
+AND `alumno`.`idpersona` = :alumno.idpersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '2')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('2')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('2')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('2')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('2')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:17:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'datos', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:17:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumno`
+WHERE `alumno`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:20:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'personas', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 02:20:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = :Alumno.idPersona:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 02:25:29 --> mysqli_sql_exception: Unknown column 'Alumno.deleted_at' in 'where clause' in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+CRITICAL - 2025-03-19 02:25:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Alumno.deleted_at' in 'where clause'
+[Method: GET, Route: alumnos/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = :Alumno.idPersona:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 5 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 6 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 02:25:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Alumno.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = :Alumno.idPersona:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 7 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 8 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-03-19 02:25:29 --> [Caused by] mysqli_sql_exception: Unknown column 'Alumno.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Alumno`
+WHERE `Alumno`.`deleted_at` IS NULL
+AND `Alumno`.`idPersona` = :Alumno.idPersona:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(609): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->find('1')
+ 8 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno('1')
+ 9 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos('1')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
+ERROR - 2025-03-19 03:07:32 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'personas', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(NULL)
+#7 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\app\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(NULL)
+#8 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(933): App\Controllers\ApiController->index()
+#9 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#10 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\reyes\OneDrive\Documentos\codeigniter4-framework-v4.6.0-0-g96a1e60\codeigniter4-framework-96a1e60\system\rewrite.php(44): require_once('C:\\Users\\reyes\\...')
+#15 {main}
+CRITICAL - 2025-03-19 03:07:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: alumnos/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Alumno`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AlumnoModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\ApiService.php(20): App\Models\AlumnoModel->getAlumno(null)
+ 7 APPPATH\Controllers\ApiController.php(19): App\Libraries\ApiService->getAlumnos(null)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\codeigniter4-framework-v4.6.0-0-g96a1e60\\codeigniter4-framework-96a1e60\\public\\index.php')
